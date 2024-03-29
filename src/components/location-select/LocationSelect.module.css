@@ -1,0 +1,38 @@
+.rootinput {
+    min-height: 50px;
+    min-width: 350px;
+    border-radius: 24px;
+    
+}
+
+.iconroot {
+    &[data-position='right'] {
+        height: 40px;
+        width: 40px;
+        margin: auto 6px;
+        border-radius: 50%;
+        border: 1px solid light-dark(var(--mantine-color-gray-8), var(--mantine-color-gray-2));
+    }
+}
+
+.pill {
+    height: 36px;
+    &>span {
+        font-size: 16px;
+        line-height: 2.2;
+    }
+}
+
+.dropdown {
+    border-radius: 24px;
+    padding: 8px;
+}
+
+.option {
+    padding: 8px;
+    border-radius: 24px;
+    &>span {
+        font-size: 16px;
+        line-height: 2.2;
+    }
+}
